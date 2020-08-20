@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.house {
+    background-image: url(./img5.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.house .row {
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.testimonials{
+    background-color: rgb(71, 199, 71);
+    height: 350px;
+    text-align:center;
+}
