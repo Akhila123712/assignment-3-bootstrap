@@ -25,3 +25,29 @@ body{
     height: 350px;
     text-align:center;
 }
+
+.bg-warning{
+    background-color: turquoise !important;
+}
+
+@media (min-width:768px){
+    .top-bar.bg-warning{
+        background-color: transparent !important;
+    }
+    #header{
+        position: relative;
+    }
+    header .top-bar{
+        position: absolute;
+        z-index: 1000;
+    }
+}
+
+.navbar-brand{
+    font-size:2rem;
+    font-weight:300px;
+}
+
+.navbar-brand strong {
+    font-weight:900px;
+}
